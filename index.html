@@ -4,42 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Chat Layout</title>
 </head>
 <body>
     <div class="homeScreen">
-        <!-- It was the outer screen of the webpage -->
-        <div >
-            <div class="outerHeader">
-
-            </div>
-        </div>
-        <!-- Charting screen  -->
-        <div class = "chartScreen" >
+        <div class="outerHeader"></div>
+        
+        <div class="chartScreen">
             <div class="contactList">
                 <header class="contactHeader">
                     <div class="chartHeader">
-                        <img class="contactImage" src="./asserts/62010d848b790a2336d1542fcda51789.jpg" alt="">
+                        <img class="contactImage" src="./asserts/62010d848b790a2336d1542fcda51789.jpg" alt="User">
                     </div>
-                    <div class="chartIcone">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>                       
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    <div class="chartIcons">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                            <path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                            <path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/>
+                        </svg>
                     </div>
                 </header>
+                
                 <div class="searchOuter">
                     <div class="search">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
-                        <input class="searchs" type="search" placeholder="Search or start new chart" >
-    
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                            <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                        </svg>
+                        <input class="searchInput" type="search" placeholder="Search or start new chat">
                     </div>
                 </div>
-               
+                <div class="scroll">
+                <div class="chartSection">
+                    <div class="profilesbar">
+                        <div class="profiles">
+                            <img src="./asserts/download (1).jpeg" alt="User" class="user">
+                            <div>
+                                <h3>Conta Name</h3>
+                                <h6>hi how are you</h6>
+                            </div>
+                            
+                        </div>
+                        <div class="time">
+                            <h6>yesterday</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="chartSection">
+                    <div class="profilesbar">
+                        <div class="profiles">
+                            <img src="./asserts/download (1).jpeg" alt="User" class="user">
+                            <div>
+                                <h3>Conta Name</h3>
+                                <h6>hi how are you</h6>
+                            </div>
+                            
+                        </div>
+                        <div class="time">
+                            <h6>yesterday</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="chartSection">
+                    <div class="profilesbar">
+                        <div class="profiles" data-name="Chintu Voda" data-image="./asserts/download (1).jpeg" data-message="Hello! What's up?">
+                            <img src="./asserts/download (1).jpeg" alt="User" class="user">
+                            <div>
+                                <h3>Chintu Voda</h3>
+                                <h6>ello! What's up?</h6>
+                            </div>
+                            
+                        </div>
+                        <div class="time">
+                            <h6>yesterday</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="chartSection">
+                    <div class="profilesbar">
+                        <div class="profiles" data-name="johny" data-image="./asserts/download (1).jpeg" data-message="hi bro whatApp">
+                            <img src="./asserts/download (1).jpeg" alt="User" class="user">
+                            <div>
+                                <h3>johny</h3>
+                                <h6>hi bro whatApp</h6>
+                            </div>
+                            
+                        </div>
+                        <div class="time">
+                            <h6>yesterday</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="chartSection">
+                    <div class="profilesbar">
+                        <div class="profiles">
+                            <img src="./asserts/download (1).jpeg" alt="User" class="user">
+                            <div>
+                                <h3>Conta Name</h3>
+                                <h6>hi how are you</h6>
+                            </div>
+                            
+                        </div>
+                        <div class="time">
+                            <h6>yesterday</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="chartSection">
+                    <div class="profilesbar">
+                        <div class="profiles">
+                            <img src="./asserts/download (1).jpeg" alt="User" class="user">
+                            <div>
+                                <h3>Conta Name</h3>
+                                <h6>hi how are you</h6>
+                            </div>
+                            
+                        </div>
+                        <div class="time">
+                            <h6>yesterday</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="chartSection">
+                    <div class="profilesbar">
+                        <div class="profiles">
+                            <img src="./asserts/download (1).jpeg" alt="User" class="user">
+                            <div>
+                                <h3>Conta Name</h3>
+                                <h6>hi how are you</h6>
+                            </div>
+                            
+                        </div>
+                        <div class="time">
+                            <h6>yesterday</h6>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="chart"></div>
-            
+            </div>
+            <div class="chart">
+                <div class="chartprofilebar">
+                    <div class="chartProfile">
+                        <div class="profiless">
+                            <img id="chat-user-image" src="./asserts/download (1).jpeg" alt="User" class="user">
+                            <div>
+                                <h3 id="chat-user-name">Conta Name</h3>
+                                <h6 id="chat-user-message">hi how are you</h6>
+                            </div>
+                            
+                        </div>
+                        <div class="time">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                <path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                <path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="chartBody">
+                   
+                </div>
+                <div class="chartArea">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M620-520q25 0 42.5-17.5T680-580q0-25-17.5-42.5T620-640q-25 0-42.5 17.5T560-580q0 25 17.5 42.5T620-520Zm-280 0q25 0 42.5-17.5T400-580q0-25-17.5-42.5T340-640q-25 0-42.5 17.5T280-580q0 25 17.5 42.5T340-520Zm140 260q68 0 123.5-38.5T684-400H276q25 63 80.5 101.5T480-260Zm0 180q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Z"/></svg>
+                    <input class="charts" type="text">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-400q-50 0-85-35t-35-85v-240q0-50 35-85t85-35q50 0 85 35t35 85v240q0 50-35 85t-85 35Zm0-240Zm-40 520v-123q-104-14-172-93t-68-184h80q0 83 58.5 141.5T480-320q83 0 141.5-58.5T680-520h80q0 105-68 184t-172 93v123h-80Zm40-360q17 0 28.5-11.5T520-520v-240q0-17-11.5-28.5T480-800q-17 0-28.5 11.5T440-760v240q0 17 11.5 28.5T480-480Z"/></svg>
+                </div>
+            </div>
         </div>
-       
     </div>
-    
+    <script src="./script.js"></script>
 </body>
 </html>
